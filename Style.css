@@ -1,0 +1,132 @@
+/* Réinitialisation des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    /* position: fixed; */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about, .portfolio, .contact {
+    padding: 40px;
+}
+
+.about h2, .portfolio h2, .contact h2 {
+    font-size: 24px;
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+.layout {
+    display: grid;
+    grid-template-rows: 750px;
+    grid-template-columns: 500px 425px 500px;
+    background-color: #cfcfc6;
+}
+
+.all {
+    background-color: #e7eeeb;
+    border-style: dotted;
+    margin: 1em;
+    padding: 1em;
+}
+
+.all > h2 {
+    text-align: center;
+}
+
+.all ul {
+    padding-left: 20px;
+}
+
+
+.doubleD{
+    color : #00008B;
+    border-style: double;
+    border-radius: 25px 25px 25px 25px;
+    padding: 1em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#Titre {
+    text-align: center;
+}
+
+
+.tel, .mail{
+    color: blue;
+}
+.tel:hover, .mail:hover{
+    color: black;
+}
+
+.dateTitle {
+    color: rgb(18, 144, 228);
+    text-decoration: underline;
+}
