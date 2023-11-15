@@ -84,7 +84,7 @@ footer {
 
 .layout {
     display: grid;
-    grid-template-rows: 750px;
+    grid-template-rows: 950px;
     grid-template-columns: 500px 425px 500px;
     background-color: #cfcfc6;
 }
